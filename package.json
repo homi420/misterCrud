@@ -1,0 +1,32 @@
+{
+  "name": "mister-crud",
+  "version": "1.0.6",
+  "description": "A lightweight Node.js package for simplifying CRUD (Create, Read, Update, Delete) operations with MongoDB. Easily perform common database operations in your Node.js applications using a straightforward and intuitive interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mongodb",
+    "crud",
+    "nodejs",
+    "database"
+  ],
+  "author": "homi420",
+  "license": "ISC",
+  "files": [
+    "crud.js",
+    "index.js",
+    "Readme.md",
+    "License.md",
+    "middlewares",
+    "authCrud",
+    "simpleCrud",
+    "utils.js"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
